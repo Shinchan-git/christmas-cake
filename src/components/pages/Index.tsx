@@ -1,5 +1,6 @@
 import React, { useRef } from 'react'
-import Example from '../works/Example'
+import Strawberry from '../works/Strawberry'
+import WhippedCream from '../works/WhippedCream'
 
 const Index: React.FC = () => {
   const svgContainerRef = useRef<HTMLDivElement>(null)
@@ -23,7 +24,8 @@ const Index: React.FC = () => {
     <div>
       <button onClick={downloadSvg}>Download</button>
       <div ref={svgContainerRef}>
-        <Example />
+        <WhippedCream />
+        <Strawberry />
       </div>
     </div>
   )
